@@ -1,0 +1,201 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdf3f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      color: #333;
+    }
+
+    .ingredients-card {
+      width: 400px;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .ingredients-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .ingredients-header h1 {
+      font-size: 1.8em;
+      color: #e91e63;
+    }
+
+    .ingredients-list {
+      list-style: none;
+      padding: 0;
+      line-height: 1.8em;
+      font-size: 1em;
+      color: #555;
+    }
+
+    .ingredients-list li {
+      margin: 5px 0;
+      padding: 10px;
+      border: 1px solid #f2f2f2;
+      border-radius: 5px;
+      background-color: #fdf8fa;
+    }
+
+    .footer-note {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+    }
+
+    .back-button {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #fff;
+      background-color: #e91e63;
+      padding: 10px 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .back-button:hover {
+      background-color: #d81b60;
+    }
+  </style>
+</head>
+<body>
+  <div class="ingredients-card">
+    <div class="ingredients-header">
+      <h1>Ingredients</h1>
+      <p>What makes the Sugar Dolls Rejuvenating Set effective?</p>
+    </div>
+    <ul class="ingredients-list">
+      <li><strong>Toner:</strong> Aqua, Niacinamide, Witch Hazel Extract, Glycerin</li>
+      <li><strong>Morning Sun Screen Gel:</strong> Titanium Dioxide, Aloe Vera Extract, Vitamin E</li>
+      <li><strong>Night Repair Cream:</strong> Retinol, Kojic Acid, Licorice Root Extract</li>
+      <li><strong>Milky Kojic Cream Bar:</strong> Kojic Acid, Coconut Oil, Milk Extract</li>
+      <li><strong>Fresh Glow Essence:</strong> Hyaluronic Acid, Vitamin C, Collagen</li>
+    </ul>
+    <a href="index.html" class="back-button">Back to Product</a>
+    <div class="footer-note">
+      <p>All ingredients are dermatologist-tested and safe for daily use.</p>
+    </div>
+  </div>
+</body>
+</html>
+Angela
+Angela Casin Conarco
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promote Sugar Dolls Rejuvenating Set</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff7f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #e91e63;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.2em;
+    }
+
+    .promo-section {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .promo-banner {
+      background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+      height: 300px;
+      border-radius: 10px;
+    }
+
+    .benefits, .testimonials, .cta {
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .benefits h2, .testimonials h2, .cta h2 {
+      color: #e91e63;
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+
+    .benefits ul, .testimonials ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .benefits li, .testimonials li {
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color: #fff7f8;
+      border-left: 5px solid #e91e63;
+      border-radius: 5px;
+    }
+
+    .testimonials li {
+      font-style: italic;
+    }
+
+    .cta {
+      text-align: center;
+    }
+
+    .cta p {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+
+    .cta .buy-now {
+      text-decoration: none;
+      color: #fff;
+      background-color: #e91e63;
+      padding: 12px 25px;
+      font-size: 1.2em;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .cta .buy-now:hover {
+      background-color: #d81b60;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #f8f8f8;
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>

@@ -1,0 +1,95 @@
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff7f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #e91e63;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.2em;
+    }
+
+    .promo-section {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+
+    .benefits, .testimonials, .cta {
+      margin-top: 20px;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .benefits h2, .testimonials h2, .cta h2 {
+      color: #e91e63;
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+
+    .benefits ul, .testimonials ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .benefits li, .testimonials li {
+      margin-bottom: 10px;
+      padding: 10px;
+      background-color: #fff7f8;
+      border-left: 5px solid #e91e63;
+      border-radius: 5px;
+    }
+
+    .testimonials li {
+      font-style: italic;
+    }
+
+    .cta {
+      text-align: center;
+    }
+
+    .cta p {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+
+    .cta .buy-now {
+      text-decoration: none;
+      color: #fff;
+      background-color: #e91e63;
+      padding: 12px 25px;
+      font-size: 1.2em;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .cta .buy-now:hover {
+      background-color: #d81b60;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #f8f8f8;
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>

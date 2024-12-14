@@ -1,0 +1,90 @@
+<title>Sugar Dolls - Rejuvenating Set</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdf3f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .product-card {
+      width: 360px;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .product-image {
+      width: 100%;
+      height: 200px;
+      background: url('https://via.placeholder.com/360x200') center/cover no-repeat;
+    }
+
+    .product-details {
+      padding: 15px 20px;
+    }
+
+    .product-title {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #e91e63;
+      margin-bottom: 10px;
+    }
+
+    .product-description {
+      font-size: 1em;
+      color: #555;
+      margin-bottom: 15px;
+    }
+
+    .product-includes {
+      text-align: left;
+      color: #777;
+      font-size: 0.95em;
+      margin-bottom: 20px;
+    }
+
+    .benefits {
+      text-align: left;
+      margin-bottom: 15px;
+    }
+
+    .benefits li {
+      margin: 5px 0;
+    }
+
+    .product-price {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #e91e63;
+      margin: 20px 0;
+    }
+
+    .buy-button {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #e91e63;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1em;
+      transition: background-color 0.3s;
+    }
+
+    .buy-button:hover {
+      background-color: #d81b60;
+    }
+
+    .footer-note {
+      margin-top: 15px;
+      font-size: 0.85em;
+      color: #777;
+    }
+  </style>
